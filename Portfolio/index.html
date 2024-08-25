@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Sattam
+            <span>Bhattacharyya</span>
+        </a>
+
+        <i class="bx" id="menu-icon"> </i>
+
+        <nav class="navbar">
+            <ul id="bars">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home_content">
+            <h1>Hi, It's <span> Sattam</span></h1>
+            <h3>I am a <span>Software Developer</span></h3>
+            <p>I’m a focused B.Tech 4th year student specializing in AI & ML, with a solid foundation in software
+                development. As I approach graduation, I’m eager to channel my skills into the IT sector, where I can
+                contribute to innovative projects and continue to grow as a software developer. My passion for
+                technology drives me to solve complex challenges and collaborate with others to create impactful,
+                cutting-edge solutions.</p>
+
+            <div class="social">
+                <a target="_blank" href="https://github.com/dexxter019">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/sattam-bhattacharyya-652187306/">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/dexterr_019/">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a target="_blank" href="https://x.com/SattamBhat74054">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </div>
+
+            <div class="btn_group">
+                <a target="_blank" href="https://www.linkedin.com/in/sattam-bhattacharyya-652187306/"
+                    class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home_img">
+            <img src="file.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about_img">
+            <img src="ppp.png" alt="">
+        </div>
+
+        <div class="about_content">
+            <h2>About <span>Me</span></h2>
+            <br>
+            <p>Driven by curiosity and a passion for technology, I love transforming complex challenges into
+                innovative solutions. My journey is fueled by a relentless drive for continuous learning and a knack for
+                collaboration.
+                <br>
+                <br>
+                When I’m not immersed in tech, you’ll find me exploring new destinations, belting out my
+                favorite tunes, or hitting the gym to stay fit. These passions fuel my creativity and keep me inspired.
+                I’m excited to bring my unique blend of skills and interests to dynamic projects in the tech industry,
+                making a meaningful impact along the way.
+            </p>
+
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services_container">
+            <div class="services_box">
+                <div class="services_info">
+                    <i class="bx bxs-devices"></i>
+                    <h4>Java Development</h4>
+                    <p>With a strong foundation in core Java concepts and object-oriented programming, I offer reliable
+                        Java development services tailored to your needs. I specialize in creating clean, efficient, and
+                        scalable code for various applications. Whether you're looking to build a new application from
+                        scratch or enhance an existing system, I leverage my deep understanding of Java to deliver
+                        robust and maintainable solutions.</p>
+                </div>
+            </div>
+
+            <div class="services_box">
+                <div class="services_info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Development</h4>
+                    <p>I specialize in creating visually appealing and user-friendly web interfaces using HTML, CSS, and
+                        JavaScript. With a focus on responsive design and seamless user experience, I build websites
+                        that are not only attractive but also highly functional. As I continue to expand my skills by
+                        learning React, I’m excited to bring modern, dynamic frontend solutions that meet the evolving
+                        needs of your projects.</p>
+                </div>
+            </div>
+
+            <div class="services_box">
+                <div class="services_info">
+                    <i class="fa-solid fa-robot"></i>
+                    <h4>AI & ML
+                    </h4>
+                    <p>I offer AI & ML services grounded in core concepts, helping you explore the potential of these
+                        technologies for your projects. While I am continually expanding my expertise, I can develop
+                        basic models and solutions that utilize AI principles to solve problems, optimize processes, and
+                        provide valuable insights. Together, we can start laying the foundation for more advanced AI &
+                        ML applications as your needs grow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form name="submit-to-google-sheet">
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input_box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input_group2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+
+        <span id="msg"></span>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-twitter"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ's</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © Sattam Bhattacharyya | All Rights Reserved
+        </p>
+    </footer>
+
+    <script>
+        var sidemenu = document.getElementById("bars");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx1cxQkvMW6Mf5osov75qvC7Rk-GhkVqtjqusFCn1HqXqWRFSQlTLHbHy3VBg2xwFgC/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully!!"
+            setTimeout(function(){
+                msg.innerHTML="";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
